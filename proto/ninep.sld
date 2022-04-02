@@ -1,4 +1,4 @@
-(define-library (proto ninep)
+(define-library (scm proto ninep)
  (export ninep-write ninep-read)
   (import
    (chibi) (chibi io)

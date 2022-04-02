@@ -7,4 +7,4 @@ $(LIBS) :
 all : $(LIBS)
 
 install :
-	cp -r $(LIBS) $(LIBDIR)
+	cp -r $(LIBS) $(LIBDIR)/scm
