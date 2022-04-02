@@ -1,7 +1,3 @@
-(import
- (chibi) (chibi string)
- (chibi char-set) (srfi 1))
-
 (define (strip-right str pred)
   (substring-cursor str
                     (string-find str pred)))
